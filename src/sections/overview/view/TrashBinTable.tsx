@@ -14,12 +14,13 @@ import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
 import { TableNoData } from 'src/sections/user/table-no-data';
 import { TableEmptyRows } from 'src/sections/user/table-empty-rows';
+import Papa from 'papaparse'; 
 import { TrashBinTableRow } from './trash-bin-table-row';
 import { TrashBinTableHead } from './trash-bin-table-head';
 import AddTrashBinForm from './AddTrashBinForm';
 import { TrashBinTableToolbar } from './trash-bin-table-toolbar';
 import { emptyRows, applyFilter, getComparator } from './utils';
-import Papa from 'papaparse';  
+ 
 
 type TrashBinProps = {
   id: string;

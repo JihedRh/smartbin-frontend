@@ -96,15 +96,7 @@ const MapView: React.FC = () => {
         <Typography variant="h4" sx={{ mb: { xs: 3, md: 5 }, color: 'white' }}>
           Hospitals List
         </Typography>
-        {/*}
-        <Button
-          variant="contained"
-          color="inherit"
-          startIcon={<Iconify icon="mingcute:add-line" />}
-          onClick={handleDialogOpen}
-        >
-          New Trash Bin
-        </Button>*/}
+
 
         {/* Full-width grid for Hospital List */}
         <Grid container spacing={3} sx={{ width: '100%' }}>

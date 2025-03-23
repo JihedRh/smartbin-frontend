@@ -143,7 +143,7 @@ const ProfileCard: React.FC = () => {
               onChange={handleImageChange}
               style={styles.input}
             />
-            <button onClick={handleSaveClick} style={styles.saveButton}>
+            <button onClick={handleSaveClick} style={styles.saveButton} type="button">
               Save Changes
             </button>
           </div>
@@ -163,7 +163,7 @@ const ProfileCard: React.FC = () => {
                 <h2 style={styles.statLabel}>Trash Thrown</h2>
               </div>
             </div>
-            <button onClick={handleEditClick} style={styles.editButton}>
+            <button onClick={handleEditClick} style={styles.editButton} type="button">
               Edit Profile
             </button>
           </>
