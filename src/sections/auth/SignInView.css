@@ -1,0 +1,25 @@
+.signInContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/SmartBinFrontend/src/sections/auth/bg_images/bin1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .animatedBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+  }
+  
